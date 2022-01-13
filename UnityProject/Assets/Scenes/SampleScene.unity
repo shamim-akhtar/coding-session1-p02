@@ -190,6 +190,10 @@ MonoBehaviour:
   mAnimator: {fileID: 725838833}
   mWalkSpeed: 1.5
   mRotationSpeed: 50
+  mAudioSource: {fileID: 0}
+  mAudioClip_Jump: {fileID: 0}
+  mAudioClip_Attack1: {fileID: 0}
+  mAudioClip_Reload: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,9 +528,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mCameraTransform: {fileID: 963194228}
   mPlayerTransform: {fileID: 155209202}
-  CameraAngleOffset: {x: 0, y: 0, z: 0}
-  CameraPositionOffset: {x: 0, y: 2, z: -4}
-  Damping: 5
+  CameraAngleOffset: {x: 10, y: 0, z: 0}
+  CameraPositionOffset: {x: 2, y: 2, z: -4}
+  Damping: 2
+  myCameraType: 2
 --- !u!4 &1362021606
 Transform:
   m_ObjectHideFlags: 0
