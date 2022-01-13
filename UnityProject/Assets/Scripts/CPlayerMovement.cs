@@ -83,7 +83,7 @@ public class CPlayerMovement : MonoBehaviour
     }
     if (Input.GetKeyDown(KeyCode.R))
     {
-      Reload();
+      Reload1();
     }
   }
 
@@ -115,7 +115,7 @@ public class CPlayerMovement : MonoBehaviour
     mAnimator.SetBool("Attack2", false);
   }
 
-  void Reload()
+  void Reload1()
   {
     mAnimator.SetTrigger("Reload");
   }
